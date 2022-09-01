@@ -1,1 +1,3 @@
-console.log("hellooooooooo there!")
+const greet = (name = "world") => {
+    return `Hello ${name}`;
+}
